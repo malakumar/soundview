@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS `songtitles` (
+   `artist1` VARCHAR(40) NOT NULL,
+   `artist2` VARCHAR(40) NOT NULL,
+   `artist3` VARCHAR(40) NOT NULL,
+   `description` VARCHAR(200) NOT NULL,
+   `info1` VARCHAR(400) NOT NULL,
+   `info2` VARCHAR(400) NOT NULL,
+   `info3` VARCHAR(400) NOT NULL,
+   `location1` VARCHAR(40) NOT NULL,
+   `location2` VARCHAR(40) NOT NULL,
+   `location3` VARCHAR(40) NOT NULL,
+   `song1` VARCHAR(40) NOT NULL,
+   `song2` VARCHAR(40) NOT NULL,
+   `song3` VARCHAR(40) NOT NULL,
+   `title` VARCHAR(20) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
